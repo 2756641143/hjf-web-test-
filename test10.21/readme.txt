@@ -38,8 +38,9 @@
 5.用户输入验证码,无论大小写输入都会正确的方法,显示在页面id为h5的元素中
 答:
  <h5 id="h5"></h5>
-    <script>
-        var ipt = prompt('请输入验证码');
-        var h5 = document.getElementById('h5');
-        h5.innerHTML = ipt.toLocaleUpperCase();
-    </script>
+		<script type="text/javascript">
+			var str = prompt('输入验证码');
+            var h5 = document.getElementById('h5');
+            h5.innerHTML = str.toLocaleUpperCase();
+		</script>
+

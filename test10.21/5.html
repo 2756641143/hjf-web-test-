@@ -7,11 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h5 id="h5"></h5>
-    <script>
-        var ipt = prompt('请输入验证码');
-        var h5 = document.getElementById('h5');
-        h5.innerHTML = ipt.toLocaleUpperCase();
-    </script>
+        <h5 id="h5"></h5>
+		<script type="text/javascript">
+			var str = prompt('输入验证码');
+            var h5 = document.getElementById('h5');
+            h5.innerHTML = str.toLocaleUpperCase();
+		</script>
+
 </body>
 </html>
